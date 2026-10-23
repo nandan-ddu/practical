@@ -1,11 +1,24 @@
 public class File1 {
     public static void main(String[] args) {
 
-        System.out.println("Hello from Jenkins - Version 2!");
+        System.out.println("Hello from java - calulater");
         
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
+        int n1=50,n2=2;
+
+        char ch='/';
+
+        if(ch=='+'){
+            System.out.println(n1 + "+" + n2 +'=' + n1+n2);
+        }
+        if(ch=='-'){
+            System.out.println(n1 + "-" + n2 +'=' + (n1-n2));
+        }
+        if(ch=='*'){
+            System.out.println(n1 + "*" + n2 +'=' + n1*n2);
+        }
+        if(ch=='/'){
+            System.out.println(n1 + "/" + n2 +'=' + n1/n2);
         }
     }
 }
